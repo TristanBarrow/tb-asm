@@ -1,0 +1,25 @@
+{
+    "name": "tb-assembly",
+    "displayName": "tb-assembly",
+    "description": "Tristan Barrow Assembly Syntax Highlighting",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "tb-asm",
+            "aliases": ["Tristan Barrow Assembly", "tb-asm"],
+            "extensions": [".tb"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "tb-asm",
+            "scopeName": "",
+            "path": "./syntaxes/tb-asm.tmLanguage.json"
+        }]
+    }
+}
