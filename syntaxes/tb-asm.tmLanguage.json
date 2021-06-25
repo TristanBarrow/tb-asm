@@ -1,32 +1,45 @@
 {
+	"scopeName": "source.tb",
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "Tristan Barrow Assembly",
 	"patterns": [
-		{
-			"include": "#keywords"
-		},
-		{
-			"include": "#strings"
-		}
+		{ "include": "#operation" }, 
+		{ "include": "#register" },
+		{ "include": "#hex" }, 
+		{ "include": "#memory" },
+		{ "include": "#comment" }
 	],
 	"repository": {
-		"keywords": {
+		"operation": {
 			"patterns": [{
-				"name": "keyword.control.tb-asm",
-				"match": "\\b(if|while|for|return)\\b"
+				"name": "operation.code",
+				"match": "MOV|ADD|LOAD|SAVE"
 			}]
 		},
-		"strings": {
-			"name": "string.quoted.double.tb-asm",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.tb-asm",
-					"match": "\\\\."
-				}
-			]
+		"register": {
+			"patterns": [{
+				"name": "register.code",
+				"match": "acc|r1|r2|r3|r4|r5|r6|r7|r8|r9|r10|r11|r12|r13|r14|r15"
+			}]
+		},
+		"hex": {
+			"patterns": [{
+				"name": "hex.code",
+				"match": "0x[0-9a-fA-F]+"
+			}]
+		},
+		"memory": {
+			"patterns": [{
+				"name": "memory.code",
+				"match": "Mx[0-9]+"
+			}]
+		},
+		"comment": {
+			"patterns": [{
+				"name": "comment.line",
+				"match": "#.*$"
+			}]
 		}
-	},
-	"scopeName": ""
+
+	}
 }

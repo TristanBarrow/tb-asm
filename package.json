@@ -18,8 +18,14 @@
         }],
         "grammars": [{
             "language": "tb-asm",
-            "scopeName": "",
+            "scopeName": "source.tb",
             "path": "./syntaxes/tb-asm.tmLanguage.json"
+        }],
+        "themes": [{
+            "id": "tb-asm-theme",
+            "label": "TB Assembly Theme",
+            "path": "./themes/tb-asm-color-theme.json",
+            "uiTheme": "vs-dark"
         }]
     }
 }

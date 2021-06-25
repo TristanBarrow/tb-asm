@@ -1,0 +1,35 @@
+{
+    "type": "dark",
+    "tokenColors":[
+        {
+            "scope": "operation.code",
+            "settings": {
+                "foreground": "#FADA5E"
+            }
+        },
+        {
+            "scope": "hex.code",
+            "settings": {
+                "foreground": "#b7d187"
+            }
+        },
+        {
+            "scope": "register.code",
+            "settings": {
+                "foreground": "#b977d3"
+            }
+        },
+        {
+            "scope": "memory.code",
+            "settings": {
+                "foreground": "#7480eb"
+            }
+        },
+        {
+            "scope": "comment.line",
+            "settings": {
+                "foreground": "#5d8062"
+            }
+        }
+    ]
+}
