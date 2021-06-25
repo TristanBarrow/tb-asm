@@ -1,5 +1,9 @@
 {
     "name": "tb-assembly",
+    "author": {
+        "name": "Tristan Barrow"
+    },
+    "publisher": "Tristan Barrow",
     "displayName": "tb-assembly",
     "description": "Tristan Barrow Assembly Syntax Highlighting",
     "version": "0.0.1",
