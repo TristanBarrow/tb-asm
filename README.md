@@ -1,5 +1,7 @@
 # tb-assembly README
 
+This is just a simple vs code extention for the assembly that will run on my mini custom VM. 
+
 This is the README for your extension "tb-assembly". After writing up a brief description, we recommend including the following sections.
 
 ## Features
