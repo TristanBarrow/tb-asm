@@ -3,7 +3,10 @@
     "author": {
         "name": "Tristan Barrow"
     },
-    "publisher": "Tristan Barrow",
+    "publisher": "TristanMarkBarrow",
+    "repository": {
+        "url": "https://github.com/TristanBarrow/tb-asm"
+    },
     "displayName": "tb-assembly",
     "description": "Tristan Barrow Assembly Syntax Highlighting",
     "version": "0.0.1",

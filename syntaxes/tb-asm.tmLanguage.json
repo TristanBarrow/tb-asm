@@ -1,5 +1,6 @@
 {
 	"scopeName": "source.tb",
+	"fileTypes": [".tb"],
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "Tristan Barrow Assembly",
 	"patterns": [
