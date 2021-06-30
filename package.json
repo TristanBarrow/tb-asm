@@ -9,7 +9,11 @@
     },
     "displayName": "tb-assembly",
     "description": "Tristan Barrow Assembly Syntax Highlighting",
-    "version": "0.0.1",
+    "version": "0.0.2",
+    "scripts": {
+        "package": "vsce package",
+        "clean": "find . -name \"*.vsix\" -type f -delete"
+    },
     "engines": {
         "vscode": "^1.57.0"
     },
