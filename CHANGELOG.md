@@ -2,8 +2,8 @@
 
 All notable changes to the "tb-assembly" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## Version 0.0.4
 
-## [Unreleased]
-
-- Initial release
+- Added A-F support for memory addresses syntax highligting
+- Capped memory address and hex addresses to 4 hex charicters
+- Removed tutorial readme

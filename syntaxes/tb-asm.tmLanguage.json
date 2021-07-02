@@ -26,13 +26,13 @@
 		"hex": {
 			"patterns": [{
 				"name": "hex.code",
-				"match": "0x[0-9a-fA-F]+"
+				"match": "0x[0-9A-F]{1,4}"
 			}]
 		},
 		"memory": {
 			"patterns": [{
 				"name": "memory.code",
-				"match": "D0|D1|D2|D3|D4|D5|D6|D7|Mx[0-9]+"
+				"match": "D0|D1|D2|D3|D4|D5|D6|D7|Mx[0-9A-F]{1,4}"
 			}]
 		},
 		"comment": {
